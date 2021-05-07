@@ -1,0 +1,36 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body{
+  color: aliceblue;
+  background-color: black;
+}
+
+#main{
+  border: 1px solid white;
+  max-width: 50%;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+li{
+  list-style-type: none;
+}
+
+#check-list{
+  text-align:initial
+}
+
